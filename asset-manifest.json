@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Expenses-Management/static/css/main.378e6b11.css",
+    "main.css": "/Expenses-Management/static/css/main.3a8d3634.css",
     "main.js": "/Expenses-Management/static/js/main.a4a5037c.js",
     "static/js/787.61aab4f3.chunk.js": "/Expenses-Management/static/js/787.61aab4f3.chunk.js",
     "index.html": "/Expenses-Management/index.html",
-    "main.378e6b11.css.map": "/Expenses-Management/static/css/main.378e6b11.css.map",
+    "main.3a8d3634.css.map": "/Expenses-Management/static/css/main.3a8d3634.css.map",
     "main.a4a5037c.js.map": "/Expenses-Management/static/js/main.a4a5037c.js.map",
     "787.61aab4f3.chunk.js.map": "/Expenses-Management/static/js/787.61aab4f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.378e6b11.css",
+    "static/css/main.3a8d3634.css",
     "static/js/main.a4a5037c.js"
   ]
 }

@@ -1,0 +1,62 @@
+
+.allInputs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(350px,1fr));
+}
+
+.formInp{
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+@media(max-width:1050px){
+    .allInputs{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .formInp{
+        width: 80%;
+    }
+}
+
+.label{
+    color:white;
+    font-size: 20px;
+    text-align: left;
+}
+.input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font: inherit;
+    font-size: 20px;
+    border: none;
+}
+.input:focus{
+    outline: none;
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnBox .btn{
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #8b2a2a;
+    font-weight: 600;
+}
+.btnBox .btn:disabled{
+    cursor: not-allowed;
+}

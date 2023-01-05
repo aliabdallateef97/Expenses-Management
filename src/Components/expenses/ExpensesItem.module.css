@@ -1,0 +1,23 @@
+.ExpenseItem{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #403737;
+    margin: 10px 0;
+}
+
+.ExpenseItem .title{
+    color: white;
+    font-size: 25px
+}
+.ExpenseItem .price{
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    background: #177a7a;
+    font-weight: bold;
+}

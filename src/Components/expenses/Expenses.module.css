@@ -1,0 +1,9 @@
+.ExpensesBox{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
